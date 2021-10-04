@@ -1,4 +1,4 @@
-<div align="center">**CALCULATOR PROJECT**</div>
+<div align="center">CALCULATOR PROJECT</div>
 <br>
 The thoughts behind this were to follow instruction first and foremost.  After that, was to put my own flair on it.  I tried to incorporate all the things I've learned thus far in class, plus the things I've learned on my own.  It was good going through this process, becuase it allowed me to be creative.  To this point in class I've had challenges where the rules were defined.  This was my chance to complete the task as I saw fit. 
 <br>
