@@ -20,4 +20,4 @@ def tip_calculator():
     else:
         print('N/A')
 
-tip_calculator()
+tip_calculator() 
