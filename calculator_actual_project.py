@@ -13,10 +13,11 @@ def tip_calculator():
 # Percentage of the tip
 # Float conversion is necessary here incase someone wanted to leave a fraction of a percent.
     percentage = float(input(f'What percentage would you like to leave?: '))
-# Tax conversion if someone wanted to leave any amount.
-    per_person = (food + tax) / people
-    sum =  (f"You should tip {(.10 * tax) * percentage}, {per_person} is what each individual needs to pay, this includes sales tax. Try 7/11 next time Paul's Steak House is expensive")
-    print(sum)
     
-
-tip_calculator()
+# Tax conversion if someone wanted to leave any amount.
+    per_person = ((.10 * tax) * percentage)+ food + tax / people
+    sum =  (f"You should tip {(.10 * tax) * percentage}, {per_person} is what each individual needs to pay, this includes sales tax. Try 7/11 next time Paul's Steak House is expensive")
+    return sum
+    
+# add % sign to function so it could run in case someone wants to be funny
+print(tip_calculator())
